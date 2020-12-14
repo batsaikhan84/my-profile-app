@@ -1,4 +1,4 @@
-const cityListReducer = (state = {cities: []}, action) => {
+function cityListReducer (state = {cities: []}, action) {
     switch(action.type) {
         case 'GET_CITY':
             return {
@@ -9,3 +9,5 @@ const cityListReducer = (state = {cities: []}, action) => {
             return state;
     }
 }
+
+export default cityListReducer

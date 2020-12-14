@@ -1,7 +1,11 @@
-const Nav = function() {
+function Nav() {
     return (
         <div>
-            this is nav component
+            <ul>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>About</li>
+            </ul>
         </div>
     )
 }
