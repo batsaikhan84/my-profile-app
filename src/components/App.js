@@ -4,7 +4,7 @@ import Nav from './Nav'
 function App() {
   return (
     <div>
-      Hello World!
+      Hello World! to you
       <Nav />
     </div>
   );
