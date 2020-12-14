@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import store from './app/store';
-import cityListReducer from './actions/cityListReducer'
+import App from './components/App';
+import { createStore } from 'redux'
+import cityListReducer from './reducers/cityListReducer'
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
